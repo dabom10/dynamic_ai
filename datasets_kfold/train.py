@@ -7,7 +7,7 @@ K = 5
 BASE_YAML = "data.yaml"
 
 for fold in range(K):
-    print(f"\n🚀 Training fold {fold}")
+    print(f"Training fold {fold}")
 
     with open(BASE_YAML, "r") as f:
         data_cfg = yaml.safe_load(f)
